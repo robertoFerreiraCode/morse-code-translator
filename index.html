@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Morse Code Translate</title>
+</head>
+<body>
+    <main class="main">
+        <h1 class="header">Morse Code Translator</h1>
+        <div class="content">
+            <div class="text-box">
+                <h2 class="text-box__header" >Input</h2>
+                <textarea class="text-box__text-area" id="input" cols="60" rows="10"
+                    placeholder="Type message here:"
+                ></textarea>
+            </div>
+            
+            <div class="mode-selector">
+                <h3 class="mode-selector__header">Mode</h3>
+                <input type="radio" name="mode" id="encode" value="encode" checked>
+                <label for="encode">Encode</label>
+                <input type="radio" name="mode" value="decode" id="decode">
+                <label for="decode">Decode</label>
+            </div>
+    
+            <div class="text-box">
+                <h2 class="text-box__header" >Output</h2>
+                <textarea class="text-box__text-area"  id="output" cols="60" rows="10" readonly 
+                    placeholder="Translated message here. / equates to a space, # equates to untranslatable character"
+                ></textarea>
+            </div>
+            
+        </div>
+        <div>
+            <img class="img" src="./assets/morse-code-img.jpg"/>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

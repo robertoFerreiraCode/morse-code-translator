@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+// $font-color: #363e24;
+$font-color: black;
+
+body {
+    background-color: #e3ddc5;
+    background-color: rgb(163, 163, 163);
+    font-family: "Yesteryear";
+    color: $font-color;
+}
+
+.header {
+    font-family: "Yesteryear";
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 98vh;
+    border: 2px dashed black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__text-area {
+        resize: none;
+        font-size: 20px;
+    }
+    &__header {
+        font-size: 40px;
+    }
+}
+
+.mode-selector {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 20px;
+    &__header {
+        text-align: center;
+    }
+}
+
+.img {
+    margin: 30px;
+    height: 90%;
+}
