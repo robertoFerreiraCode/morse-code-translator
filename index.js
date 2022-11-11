@@ -1,5 +1,5 @@
 import { alphabet, reversedAlphabet } from "./dictionaries.js";
-import translate from "./script.js";
+import translate from "./translate.js";
 
 const textInput = document.querySelector("#input");
 const textOutput = document.querySelector("#output");
